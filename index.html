@@ -1,9 +1,207 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    
-  </head>
-  <body>
-    <h1>Hello</h1>
-    <p>test message</p>
-  </body>
+    <head>
+        <title>Mason Poole - ePortfolio</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            html, body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 30px;
+            }
+
+            body {
+                background-image: linear-gradient(to bottom, white, rgb(229, 229, 229));
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100%, 100%;
+            }
+
+            #header {
+                width: 100%;
+                margin: 0;
+                padding: 2px;
+
+                text-align: center;
+                color: white;
+                
+
+                background-color: cornflowerblue;
+                box-shadow: 0px 6px 8px #9f9f9f;
+                
+            }
+
+            #main-content {
+                margin: 50px 150px;
+            }
+
+            .video-container {
+                width: 80%;
+                padding-top: 45%; /* 16:9 aspect ratio*/
+                position: relative;
+                overflow: hidden;
+            }
+
+            .video {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Mason Poole</h1>
+        </div>
+        <div id="main-content">
+            <h2>ePortfolio</h2>
+
+            <hr>
+
+            <h3>Introduction & Professional Self-Assessment</h3>
+
+            <p>
+                Hello! My name is Mason Poole, and I've been developing software as a hobby for over ten years. A few years ago, I decided to pursue my passion for technology, and after recently earning my bachelor's degree in computer science from Southern New Hampshire University, I'm now looking to start a long-lasting career as a web developer. I believe websites are crucial in bridging the gaps between people and information. Websites power how we develop new skills, learn new ideas, and gain a deeper understanding of the world around us, and I want to be at the forefront, shaping and innovating how society interacts with information and technology.
+            </p>
+
+            <p>
+                My time at SNHU has simultaneously provided new learning opportunities and reinforced my existing knowledge of computer science, leaving me well-equipped to tackle the ever-changing landscape of web development. I expanded my understanding of data structures and algorithms by utilizing vectors, hash tables, and linked lists to develop various sorting and search algorithms, such as binary search and bubble sort. Developing a checksum verification system for an HTTPS-powered web application provided hands-on knowledge and experience with different forms of encryption, and instilled a security-first mindset into my software development process. Additionally, I've gained experience working with both SQL and NoSQL databases and integrating them into full system architectures, a key component in any full-stack web application.
+            </p>
+
+            <p>
+                The skills I've gained during my time at SNHU extend beyond the technical skills needed for software development. I've practiced writing software design documents and communicating with company stakeholders throughout several projects and during several stages of development, and have had the opportunity to work with my peers across several assignments and projects, from simulating company environments for decision making to developing a video game prototype as part of an organized team with four other students. These experiences have heightened my communication and collaboration skills across various audiences and situations, crucial skills in the fast-paced environment that is software development.
+            </p>
+
+            <p>
+                Working on my capstone project and ePortfolio has allowed me to truly put my skills to the test, as I demonstrated strong written and oral communication skills through my ePortfolio and code review, utilized my software engineering skills to design and develop my capstone project, which itself incorporated efficient and appropriate usage of algorithms and data structures, persistent organized databases, and well-founded security patterns and practices.
+            </p>
+
+            <hr>
+
+            <h3>My Capstone Project</h3>
+
+            <p>
+                The capstone project is the final project taken at Southern New Hampshire University, and is designed to showcase a student's improvement throughout the degree program and highlight the in-demand skills the student possesses. The goal of the capstone project was to take one to three existing projects completed at SNHU, known as artifacts, and enhance them across the following categories: 
+            </p>
+
+            <ul>
+                <li>Software design and engineering</li>
+                <li>Algorithms and data structures</li>
+                <li>Databases</li>
+            </ul>
+
+            <p>Additionally, the work done across all three categories needed to meet the following course outcomes:</p>
+
+            <ul>
+                <li>Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science</li>
+                <li>Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts</li>
+                <li>Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices</li>
+                <li>Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals</li>
+                <li>Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources</li>
+            </ul>
+
+            <p>
+                For my capstone project, I opted to combine all three categories into one large enhancement project, allowing me to showcase my ability to develop complete, large-scale applications. The artifact I chose to enhance was an inventory management Android App I developed in my
+                CS-360: Mobile Design and Architecture course, which allowed users to view and modify a database of items stored in a warehouse (<a href="https://github.com/Mason-Poole/CS-360" target="_blank">view the original artifact here)</a>. The general plan for my enhancements was to recreate the mobile app as a
+                full-stack web application, utilizing persistent data storage and modern security best practices, while simultaneously adding more functionality to improve the user experience, fully demonstrating my skills as a web developer capable of creating and maintaining complex systems.
+            </p>
+
+            <hr>
+
+            <h3>Code Review</h3>
+            <p>I began my capstone project by conducting a code review on the original artifact. A video of said code review can be seen below.</p>
+
+            <div class="video-container">
+                <iframe src="https://drive.google.com/file/d/1YXLa1-1aFWIEEnQZ-MZ1Y5Ngvm_XNlcZ/preview" class="video"></iframe>
+            </div>
+
+            <p>Through this code review, I identified areas of the original code that could be improved and outlined my plans to enhance these areas in my revised artifact. Then, I discussed the initial plans for what would become my final enhancement project.</p>
+
+            <hr>
+
+            <h3>The Enhanced Artifact</h3>
+
+            <p>
+                The final enhanced artifact was developed over the course of three weeks, with each week focusing on a specific category: software design and engineering, algorithms and data structures, and databases. You can <a href="https://github.com/Mason-Poole/Capstone-Project" target="_blank">view the enhanced project here.</a>
+            </p>
+
+            <h4>Category One - Software Design and Engineering</h4>
+
+            <p>
+                As discussed previously, this project was based on an inventory management Android app I had developed in a previous course.
+                I chose to enhance this artifact as its high-level architecture reminded me of a full-stack web application, the specific field of computer science I'm most interested in working in. I believed that porting
+                this mobile app to a website would be a great way to showcase not only my technical skills as a full-stack developer, but also my ability to identify key design concepts and translate them for effective use in
+                front-facing web applications.
+            </p>
+
+            <p>
+               The goal for the first week was to build the system architecture used for the web app and to create the front-facing components, including the login screen and the main screen, using a mock database. The front-end component was developed with HTML, CSS, and JavaScript, while the back-end is run using ExpressJS, which is powered by NodeJS. Compared to the original mobile app, where everything was contained and managed within the app, the enhanced project uses a standard client-server pattern where the client requests some data from the server, such as the login page or a list of items in the database, and the server processes the request and sends back the appropriate data. 
+            </p>
+
+            <p>
+                The work I completed for this category directly aligned with three of the five required course outcomes: building collaborative environments, professional-quality communication, and using well-founded techniques. Recreating the mobile app as a website opened up the software to a more diverse audience of users who may not be able to utilize a mobile phone efficiently, such as people who require screen readers or visual adjustments. The UI/UX design implemented in this enhancement showcases my ability to communicate effectively with specific audiences, particularly through visual communication methods. Lastly, the development of this enhancement has directly highlighted my ability to utilize a wide variety of computer science techniques, skills, and tools to create a website that actively meets design specifications and contributes towards employer-set goals.
+            </p>
+
+            <p>
+                The main challenge I faced during this stage of development was the need to de-rust while developing the project. While web development is my main focus in computer science, starting school at SNHU shifted my focus away from sharpening those skills and towards the courses and assignments I was assigned at the time. As a result, some of what was initially second nature to me now required more thought and research, which led to the project initially starting rather slowly and necessitating some significant changes later on as I realized my initial approach was inadequate. My main takeaway from this challenge is the importance of continued practice and application of old skills to prevent rusting and strengthen core knowledge and abilities.
+            </p>
+
+            <p>
+                However, once I had reacquainted myself with JavaScript, Node, and the general process of web development, I found myself able to write cleaner, more effective code thanks to the skills I've gained from taking classes at SNHU. While implementing these skills into web development took some getting used to, it ultimately led to me creating a much higher quality codebase and website than what I was previously capable of achieving.
+            </p>
+
+            <p>
+                Overall, working on this enhancement has helped me reacquaint myself with web development after a long hiatus, better understand the importance of continued practice, and allowed me to incorporate several years of learning through SNHU back into my main field of web development.
+            </p>
+
+            <h4>Category Two - Algorithms and Data Structures</h4>
+
+            <p>
+                While my Category One enhancements focused on porting the app to a more accessible medium, for this enhancement, I wanted to add enhancements that would directly improve the user experience compared to the mobile app. In the original mobile app, navigating the list and finding specific items in the database was quite cumbersome, so I decided to focus on this issue for this enhancement. My solution was to implement a merge sort algorithm and a search algorithm into the inventory table, both of which make it significantly easier for users to organize and navigate large databases of items.
+            </p>
+
+            <p>
+                To start, when item data is requested from the server, it gets stored as an array of objects on the local client. Both the sorting and filtering functions modify this local item array, a design philosophy chosen to minimize server impact and allow requests to be fulfilled as quickly as possible. The merge sort algorithm is used to sort the local item table by any item property (name, quantity, etc.) in a consistent O(N log N) time.
+            </p>
+
+            <p>
+                The filtering algorithm is one of my own designs, which simultaneously filters the database by a substring and orders the results by relevancy, all with an O(N) time complexity. The relevancy ranking sorts items into three categories: first are items where the substring matches the beginning of the name, second are items where the substring matches the start of a word in the name, and last are items where the substring matches at some other point in the name. For example, if the substring for a filter is "an," a sorted list would be "animal crackers, fish and chips, sandwiches."
+            </p>
+
+            <p>
+                As for course outcomes, the most important one for this enhancement was the algorithmic principles outcome, which I directly met by developing and implementing both a merge sort and a custom filtering algorithm into the website, solving the problem of large tables being difficult to navigate. Additionally, this work reinforced my use of well-founded techniques, indicated by my usage of algorithms to implement table sorting and filtering, delivering more value to the web application.
+            </p>
+
+            <p>
+                Compared to the previous week's enhancements, this category was significantly more straightforward. Thanks to the extensive planning I did before Category One, the only major challenge I faced was implementing the filtering algorithm into the front-end system. While the filtering process was already outlined in my initial enhancement plan, I never thoroughly considered how this filtering algorithm would be used in the system, which led to a design flaw where filtering the local item array couldn't be undone without fetching a new list of items from the back-end, which went against my design philosophy of minimizing server impact. I was able to resolve this issue by drawing the table from a filtered copy of the local item array. However, in the future, it would be better to not only put more thought into how components will be implemented, but also how other components are designed to accommodate all planned features.
+            </p>
+
+            <h4>Category Three - Databases</h4>
+
+            <p>
+                The overall goal of my enhancements across the three categories was to port the original Android app to a full-stack web application. While my Category One enhancements ported most of the functionality, one key component was still left: the database. Creating a MongoDB database and linking it to the website through CRUD functions and RESTful API endpoints was the final step in recreating all the core functionality of the original app on the website. When the client application needs to request data from the database, it makes an API request to the server, which processes the request and triggers the appropriate CRUD function to query the database, parses the response, and returns the requested data to the client via the API response. Integrating these concepts into my web application simultaneously improves the project by providing persistent and secure data storage for both user accounts and inventory items, and highlights my ability to integrate said concepts effectively and securely, skills that are crucial in our current data-driven society.
+            </p>
+
+            <p>
+                Additionally, I made several security improvements while implementing the database, including API rate limits, password encryption, token-based authentication, and HTTPS routing, making the application significantly more secure. All of these factors combined highlight not only my ability to work with databases and integrate them into complex systems but also my knowledge and prioritization of critical security measures and design patterns, a skill that I believe will only become more crucial as technology evolves.
+            </p>
+
+            <p>
+                The designing and implementation of these security measures directly correlate to the security mindset course outcome, which was the only course outcome I had not yet met. With the completion of this category, I had successfully met all five course outcomes through my enhancements.
+            </p>
+
+            <p>
+                This final week's enhancements involved the most learning out of any of the three categories. While I had experience developing individual components such as password hashing and user authentication, this was the first time I'd ever integrated all these concepts into a single, complete web application. Completing this week's enhancements has given me a plethora of invaluable hands-on experience integrating these components into a web application, as well as first-hand knowledge on how these components interact with each other in real-world systems. Most of this category's work went smoothly, but one area that posed some challenge was developing the user authentication and authentication system. Of all the components I planned to develop for this category, this was the one I had the least experience with, so I spent a considerable amount of time researching the best authentication methods to ensure my implementation was as effective and secure as possible, as well as testing both manually and through Postman to ensure the system worked as intended and couldn't be easily compromised. I believe all this work paid off, as the IP-based user-token system used in the final enhancement is both effective and secure, ensuring that only logged-in users can access the inventory table and its associated API routes.
+            </p>
+
+        </div>
+    </body>
 </html>
