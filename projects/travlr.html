@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mason Poole - ePortfolio</title>
+        <link rel="stylesheet" href="../styles.css">
+    </head>
+    <body>
+       <ul id="nav-bar">
+            <li><h1 id="logo">Mason Poole</h1></li>
+            <li><a href="../index.html">About Me</a></li>
+            <li class="dropdown">
+                <a href="#">Projects</a>
+                <ul class="dropdown-content">
+                    <li><a href="capstone.html">Capstone</a></li>
+                    <li><a href="">Travlr Getaways</a></li>
+                    <li><a href="divimanager.html">DiviManager</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="#">Resume</a></li>
+        </ul>
+
+        <div id="main-content">
+            <h2>Travlr Getaways Website</h2>
+
+            <hr>
+
+            <h3>The Initial Project</h3>
+
+            <p>
+                The Travlr Getaways website was created as the final project for my Full-Stack Web Development course at Southern New Hampshire University. The goal of this project was to develop two sites for the fictional Travlr Getaways travel agency: a static, customer-facing website to advertise their services, and an SPA admin page for managing the static site. The web application was developed with the MEAN stack: MongoDB, Express, Angular, and Node, and implements the MVC model to organize the project. The HTML and CSS for the static site were provided by the instructor, so my work consisted of developing the routing system, RESTful API, and admin page. <a href="https://github.com/Mason-Poole/CS-465/tree/6dd0c80cd22b2da4685baf775dd67f059374e0ab" target="_blank">This version of the project can be viewed here.</a>
+            </p>
+
+            <p>
+                While I had previous full-stack development experience going into this project, this was my first time using the Angular framework, and learning it proved to be the most difficult but rewarding aspect of this project. Additionally, while I had learned about the MVC model through textbooks, this was my first time implementing it into a real project, which, while intimidating at first, proved to be quite simple and resulted in a more organized project structure that separated UI elements from business logic.
+            </p>
+
+            <p>
+                Working on this project gave me a great opportunity to develop new skills while simultaneously reinforcing old ones. I was able to get my first taste of Angular, and I now feel confident in my ability to develop SPA applications with integrated backend systems and databases. However, while the project at this point met all the requirements and received a grade of 100%, I wasn't quite satisfied.
+            </p>
+
+            <hr>
+
+            <h3>Enhancements</h3>
+
+            <p>
+                A few weeks after completing and submitting the project for my assignment, I decided to continue working on the site to improve my skills and create a more finished product. Many of the features initially developed for the project were only partially implemented, such as only working for one type of object. The main goal of these enhancements was to finish the implementation and end up with a web application closer to what the fictional client would want. <a href="https://github.com/Mason-Poole/CS-465" target="_blank">The final enhanced project can be viewed here.</a>
+            </p>
+
+            <p>
+                The biggest step towards enhancing this project was moving all relevant data to the database. The initial project only worked with the trips, even though the site also utilized data for hotel rooms, meal plans, and news posts. This process took some consideration for what attributes to store and how to display the data on the client-facing site, but the framework I developed in the initial project made most of the work trivial; an experience that carried over to adding the equivalent functions in the admin page.
+            </p>
+
+            <p>
+                In addition to expanding existing features to support more data, I wanted to add an entirely new feature: a stats page for the admin site. Developing this feature proved to be somewhat troublesome due to the asynchronous way data was retrieved, which, paired with the need to pull data from several endpoints, made it difficult to know when all the data had been retrieved. The solution I landed on was to check after each fetch request if all the data was stored locally, which I believe is suitable given the relatively small number of requests being made.
+            </p>
+
+            <p>
+                Going back to this project to complete these enhancements helped reinforce the skills I gained while developing the initial project. My Angular skills, in particular, I feel have grown a lot from this experience, and I feel significantly more confident in my ability to use it for future projects.
+            </p>
+
+            <hr>
+        </div>
+    </body>
+</html>
