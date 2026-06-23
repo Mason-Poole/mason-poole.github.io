@@ -3,21 +3,22 @@
     <head>
         <title>Mason Poole - ePortfolio</title>
         <link rel="stylesheet" href="../styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="../index.js" async></script>
     </head>
     <body>
        <ul id="nav-bar">
-            <li><h1 id="logo">Mason Poole</h1></li>
-            <li><a href="../index.html">About Me</a></li>
+            <li><a href="../index.html"><h1 id="logo">Mason Poole</h1></a></li>
+            <li><a class="nav-button" href="../about.html">About Me</a></li>
             <li class="dropdown">
-                <a href="#">Projects</a>
+                <a class="nav-button">Projects</a>
                 <ul class="dropdown-content">
-                    <li><a href="capstone.html">Capstone</a></li>
-                    <li><a href="travlr.html">Travlr Getaways</a></li>
-                    <li><a href="#">DiviManager</a></li>
+                    <li><a class="nav-button" href="capstone.html">Capstone</a></li>
+                    <li><a class="nav-button" href="travlr.html">Travlr Getaways</a></li>
+                    <li><a class="nav-button" href="divimanager.html">DiviManager</a></li>
                 </ul>
             </li>
-            
-            <li><a href="#">Resume</a></li>
+            <li><a class="nav-button" href="#">Resume</a></li>
         </ul>
 
         <div id="main-content">
@@ -26,15 +27,31 @@
             <hr>
 
             <p>
-                In September of 2023, I began working as a contracted software developer/IT manager for <a href="https://shepherdsloft.com/" target="_blank">Shepherds Loft</a>, a local web development and hosting company. My main position was as a developer for DiviManager, a proprietary WordPress plugin used to manage other WordPress sites from one interface, removing the need to access each site individually.
+                In September of 2023, I began working as a remote contracted software developer/IT manager for <a href="https://shepherdsloft.com/" target="_blank">Shepherds Loft</a>, a local web development and hosting company. My main position was as a developer for DiviManager, a proprietary WordPress plugin, developed in PHP, used to manage other WordPress sites from one interface, removing the need to access each site individually.
             </p>
 
             <p>
-                The main features I helped implement include remote WordPress core updates, remote site creation, remote plugin and theme deletion, profile-based plugin limits, and bulk plugin/theme updates. These features have reduced the time and cost of routine maintenance, expedited the client onboarding process, and provided important information that influenced business decisions. Additionally, I did a significant amount of debugging, using both manual and automated testing to identify issues in the program, which were then logged in Trello and GitHub before being resolved.
+                DiviManager utilizes a dual-plugin system where a "manager" plugin, hosted on the main site, communicates with several "worker" plugins running on each client's site. Client sites are paired with the manager site using WordPress' built-in integrations system, ensuring the manager site securely connects to the correct client site, and the client site can't be remotely controlled by anything other than the manager site. When the manager site performs an action, it sends a request to the appropriate worker plugin, which parses the request, runs internal functions as needed, and sends a response back to the manager, similar to a RESTful API.
             </p>
 
             <p>
-                My time working at Shepherds Loft has been one of immense growth, giving me a plethora of hands-on experience working in a company environment. I worked directly with other developers and the business owner to design, document, and implement features that directly impacted the company and its clients. DiviManager is the largest project I've worked on so far, and I was successfully able to come into a project several years in the making, navigate and understand the existing code and structure, and expand upon it while maintaining the company's coding standards. My time at Shepherds Loft has largely shaped me as a professional developer and will forever remain a crucial stage in my career journey.
+                During my time as a developer for DiviManager, I was responsible for developing several key software features, including the following:
+            </p>
+
+            <ul>
+                <li>Remote WordPress core updates</li>
+                <li>Remote site creation</li>
+                <li>Remote plugin and theme deletion</li>
+                <li>Profile-based plugin limits</li>
+                <li>Bulk plugin/theme updates</li>
+            </ul>
+
+            <p>
+                These features have reduced the time and cost of routine maintenance, expedited the client onboarding process, and provided important information that influenced business decisions. Additionally, I did a significant amount of debugging, using both manual and automated testing to identify issues in the program, which were then logged in Trello and GitHub before being resolved.
+            </p>
+
+            <p>
+                My time working at Shepherds Loft has been one of immense growth, giving me a plethora of real world hands-on experience working in a remote company environment. I worked directly with other developers and the business owner to design, document, and implement features that directly impacted the company and its clients. DiviManager is the largest project I've worked on so far, and I was successfully able to come into a project several years in the making, navigate and understand the existing code and structure, and expand upon it while maintaining the company's coding standards. My time at Shepherds Loft has largely shaped me as a professional developer and will forever remain a crucial stage in my career journey.
             </p>
         </div>
     </body>

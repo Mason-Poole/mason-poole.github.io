@@ -3,21 +3,22 @@
     <head>
         <title>Mason Poole - ePortfolio</title>
         <link rel="stylesheet" href="../styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript" src="../index.js" async></script>
     </head>
     <body>
        <ul id="nav-bar">
-            <li><h1 id="logo">Mason Poole</h1></li>
-            <li><a href="../index.html">About Me</a></li>
+            <li><a href="../index.html"><h1 id="logo">Mason Poole</h1></a></li>
+            <li><a class="nav-button" href="../about.html">About Me</a></li>
             <li class="dropdown">
-                <a href="#">Projects</a>
+                <a class="nav-button">Projects</a>
                 <ul class="dropdown-content">
-                    <li><a href="">Capstone</a></li>
-                    <li><a href="travlr.html">Travlr Getaways</a></li>
-                    <li><a href="divimanager.html">DiviManager</a></li>
+                    <li><a class="nav-button" href="capstone.html">Capstone</a></li>
+                    <li><a class="nav-button" href="travlr.html">Travlr Getaways</a></li>
+                    <li><a class="nav-button" href="divimanager.html">DiviManager</a></li>
                 </ul>
             </li>
-            
-            <li><a href="#">Resume</a></li>
+            <li><a class="nav-button" href="#">Resume</a></li>
         </ul>
 
         <div id="main-content">
@@ -25,26 +26,10 @@
 
             <hr>
 
-            <h3>Reflecting on my Experience at SNHU</h3>
-
-            <p>
-                My time at SNHU has simultaneously provided new learning opportunities and reinforced my existing knowledge of computer science, leaving me well-equipped to tackle the ever-changing landscape of web development. I expanded my understanding of data structures and algorithms by utilizing vectors, hash tables, and linked lists to develop various sorting and search algorithms, such as binary search and bubble sort. Developing a checksum verification system for an HTTPS-powered web application provided hands-on knowledge and experience with different forms of encryption, and instilled a security-first mindset into my software development process. Additionally, I've gained experience working with both SQL and NoSQL databases and integrating them into full system architectures, a key component in any full-stack web application.
-            </p>
-
-            <p>
-                The skills I've gained during my time at SNHU extend beyond the technical skills needed for software development. I've practiced writing software design documents and communicating with company stakeholders throughout several projects and during several stages of development, and have had the opportunity to work with my peers across several assignments and projects, from simulating company environments for decision making to developing a video game prototype as part of an organized team with four other students. These experiences have heightened my communication and collaboration skills across various audiences and situations, crucial skills in the fast-paced environment that is software development.
-            </p>
-
-            <p>
-                Working on my capstone project and ePortfolio has allowed me to truly put my skills to the test, as I demonstrated strong written and oral communication skills through my ePortfolio and code review, utilized my software engineering skills to design and develop my capstone project, which itself incorporated efficient and appropriate usage of algorithms and data structures, persistent organized databases, and well-founded security patterns and practices.
-            </p>
-
-            <hr>
-
             <h3>My Capstone Project</h3>
 
             <p>
-                The capstone project is the final project taken at Southern New Hampshire University, and is designed to showcase a student's improvement throughout the degree program and highlight the in-demand skills the student possesses. The goal of the capstone project was to take one to three existing projects completed at SNHU, known as artifacts, and enhance them across the following categories: 
+                The capstone project is the final project taken at Southern New Hampshire University, and is an opportunity to showcase a student's improvement throughout the degree program and highlight the in-demand skills the student possesses. The goal of the capstone project was to take one to three existing projects completed at SNHU, known as artifacts, and enhance them across the following categories: 
             </p>
 
             <ul>
@@ -155,6 +140,14 @@
 
             <p>
                 This final week's enhancements involved the most learning out of any of the three categories. While I had experience developing individual components such as password hashing and user authentication, this was the first time I'd ever integrated all these concepts into a single, complete web application. Completing this week's enhancements has given me a plethora of invaluable hands-on experience integrating these components into a web application, as well as first-hand knowledge on how these components interact with each other in real-world systems. Most of this category's work went smoothly, but one area that posed some challenge was developing the user authentication and authentication system. Of all the components I planned to develop for this category, this was the one I had the least experience with, so I spent a considerable amount of time researching the best authentication methods to ensure my implementation was as effective and secure as possible, as well as testing both manually and through Postman to ensure the system worked as intended and couldn't be easily compromised. I believe all this work paid off, as the IP-based user-token system used in the final enhancement is both effective and secure, ensuring that only logged-in users can access the inventory table and its associated API routes.
+            </p>
+
+            <hr>
+
+            <h3>Final Thoughts</h3>
+
+            <p>
+                Working on my capstone project and ePortfolio has allowed me to truly put my skills to the test, as I demonstrated strong written and oral communication skills through my ePortfolio and code review, utilized my software engineering skills to design and develop my capstone project, which itself incorporated efficient and appropriate usage of algorithms and data structures, persistent databases, and well-founded security patterns and practices. This project marks a key transition from creating pre-designed projects with pre-determined results to designing and developing projects from scratch, with significantly less guidance and expectations on what the finished product should be. My experience working on my capstone project will be vital as I begin my professional career as a web developer.
             </p>
 
         </div>
