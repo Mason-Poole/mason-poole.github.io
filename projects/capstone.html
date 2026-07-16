@@ -8,17 +8,17 @@
     </head>
     <body>
        <ul id="nav-bar">
-            <li><a href="../index.html"><h1 id="logo">Mason Poole</h1></a></li>
-            <li><a class="nav-button" href="../about.html">About Me</a></li>
+            <li><a href="../index"><h1 id="logo">Mason Poole</h1></a></li>
+            <li><a class="nav-button" href="../about">About Me</a></li>
             <li class="dropdown">
                 <a class="nav-button">Projects</a>
                 <ul class="dropdown-content">
-                    <li><a class="nav-button" href="capstone.html">Capstone</a></li>
-                    <li><a class="nav-button" href="travlr.html">Travlr Getaways</a></li>
-                    <li><a class="nav-button" href="divimanager.html">DiviManager</a></li>
+                    <li><a class="nav-button" href="capstone">Capstone</a></li>
+                    <li><a class="nav-button" href="travlr">Travlr Getaways</a></li>
+                    <li><a class="nav-button" href="divimanager">DiviManager</a></li>
                 </ul>
             </li>
-            <li><a class="nav-button" href="#">Resume</a></li>
+            <li><a class="nav-button" href="https://drive.google.com/file/d/1ctLFBQdrxNwjhz5ABg4a8FWwGwKm7mq1/view" target="_blank">Resume</a></li>
         </ul>
 
         <div id="main-content">
@@ -29,7 +29,7 @@
             <h3>My Capstone Project</h3>
 
             <p>
-                The capstone project is the final project taken at Southern New Hampshire University, and is an opportunity to showcase a student's improvement throughout the degree program and highlight the in-demand skills the student possesses. The goal of the capstone project was to take one to three existing projects completed at SNHU, known as artifacts, and enhance them across the following categories: 
+                The capstone project is the final project at Southern New Hampshire University (SNHU), and is an opportunity to showcase a student's improvement throughout the degree program and highlight the in-demand skills the student possesses. The goal of the capstone project was to take one to three existing projects completed at SNHU, known as artifacts, and enhance them across the following categories: 
             </p>
 
             <ul>
@@ -76,30 +76,15 @@
             <h4>Category One - Software Design and Engineering</h4>
 
             <p>
-                As discussed previously, this project was based on an inventory management Android app I had developed in a previous course.
-                I chose to enhance this artifact as its high-level architecture reminded me of a full-stack web application, the specific field of computer science I'm most interested in working in. I believed that porting
-                this mobile app to a website would be a great way to showcase not only my technical skills as a full-stack developer, but also my ability to identify key design concepts and translate them for effective use in
-                front-facing web applications.
+                As discussed previously, this project was based on an inventory management Android app I had developed in a previous course. I chose to enhance this artifact as its high-level architecture reminded me of a full-stack web application, the specific field of computer science I'm most interested in working in. I believed that porting this mobile app to a website would be a great way to showcase not only my technical skills as a full-stack developer, but also my ability to identify key design concepts and translate them for effective use in front-facing web applications.
             </p>
 
             <p>
                The goal for the first week was to build the system architecture used for the web app and to create the front-facing components, including the login screen and the main screen, using a mock database. The front-end component was developed with HTML, CSS, and JavaScript, while the back-end is run using ExpressJS, which is powered by NodeJS. Compared to the original mobile app, where everything was contained and managed within the app, the enhanced project uses a standard client-server pattern where the client requests some data from the server, such as the login page or a list of items in the database, and the server processes the request and sends back the appropriate data. 
             </p>
-
+            
             <p>
-                The work I completed for this category directly aligned with three of the five required course outcomes: building collaborative environments, professional-quality communication, and using well-founded techniques. Recreating the mobile app as a website opened up the software to a more diverse audience of users who may not be able to utilize a mobile phone efficiently, such as people who require screen readers or visual adjustments. The UI/UX design implemented in this enhancement showcases my ability to communicate effectively with specific audiences, particularly through visual communication methods. Lastly, the development of this enhancement has directly highlighted my ability to utilize a wide variety of computer science techniques, skills, and tools to create a website that actively meets design specifications and contributes towards employer-set goals.
-            </p>
-
-            <p>
-                The main challenge I faced during this stage of development was the need to de-rust while developing the project. While web development is my main focus in computer science, starting school at SNHU shifted my focus away from sharpening those skills and towards the courses and assignments I was assigned at the time. As a result, some of what was initially second nature to me now required more thought and research, which led to the project initially starting rather slowly and necessitating some significant changes later on as I realized my initial approach was inadequate. My main takeaway from this challenge is the importance of continued practice and application of old skills to prevent rusting and strengthen core knowledge and abilities.
-            </p>
-
-            <p>
-                However, once I had reacquainted myself with JavaScript, Node, and the general process of web development, I found myself able to write cleaner, more effective code thanks to the skills I've gained from taking classes at SNHU. While implementing these skills into web development took some getting used to, it ultimately led to me creating a much higher quality codebase and website than what I was previously capable of achieving.
-            </p>
-
-            <p>
-                Overall, working on this enhancement has helped me reacquaint myself with web development after a long hiatus, better understand the importance of continued practice, and allowed me to incorporate several years of learning through SNHU back into my main field of web development.
+                This project served as a great opportunity to get back into web development and showcase all that I've learned throughout my time at SNHU. Taking other courses, while enjoyable and fulfilling in their own right, took a lot of my focus away from web development, which has always been my main passion. It was great to be able to come back to web development armed with the skills I had developed across several years of coursework and studying, ready to apply them to my largest solo project to date. By the end of this first week, I felt more confident than ever about the career path I wanted to take and how much I love web development.
             </p>
 
             <h4>Category Two - Algorithms and Data Structures</h4>
@@ -117,11 +102,7 @@
             </p>
 
             <p>
-                As for course outcomes, the most important one for this enhancement was the algorithmic principles outcome, which I directly met by developing and implementing both a merge sort and a custom filtering algorithm into the website, solving the problem of large tables being difficult to navigate. Additionally, this work reinforced my use of well-founded techniques, indicated by my usage of algorithms to implement table sorting and filtering, delivering more value to the web application.
-            </p>
-
-            <p>
-                Compared to the previous week's enhancements, this category was significantly more straightforward. Thanks to the extensive planning I did before Category One, the only major challenge I faced was implementing the filtering algorithm into the front-end system. While the filtering process was already outlined in my initial enhancement plan, I never thoroughly considered how this filtering algorithm would be used in the system, which led to a design flaw where filtering the local item array couldn't be undone without fetching a new list of items from the back-end, which went against my design philosophy of minimizing server impact. I was able to resolve this issue by drawing the table from a filtered copy of the local item array. However, in the future, it would be better to not only put more thought into how components will be implemented, but also how other components are designed to accommodate all planned features.
+                Thanks to the extensive planning I did before Category One, the only major challenge I faced was implementing the filtering algorithm into the front-end system. While the filtering process was already outlined in my initial enhancement plan, I never thoroughly considered how this filtering algorithm would be used in the system, which led to a design flaw where filtering the local item array couldn't be undone without fetching a new list of items from the back-end, which went against my design philosophy of minimizing server impact. I was able to resolve this issue by drawing the table from a filtered copy of the local item array. However, in the future, it would be better to not only put more thought into how components will be implemented, but also how other components are designed to accommodate all planned features.
             </p>
 
             <h4>Category Three - Databases</h4>
@@ -135,11 +116,11 @@
             </p>
 
             <p>
-                The designing and implementation of these security measures directly correlate to the security mindset course outcome, which was the only course outcome I had not yet met. With the completion of this category, I had successfully met all five course outcomes through my enhancements.
+                This final week's enhancements involved the most learning out of any of the three categories. While I had experience developing individual components such as password hashing and user authentication, this was the first time I'd ever integrated all these concepts into a single, complete web application. Completing this week's enhancements has given me a plethora of invaluable hands-on experience integrating these components into a web application, as well as first-hand knowledge on how these components interact with each other in real-world systems.
             </p>
 
             <p>
-                This final week's enhancements involved the most learning out of any of the three categories. While I had experience developing individual components such as password hashing and user authentication, this was the first time I'd ever integrated all these concepts into a single, complete web application. Completing this week's enhancements has given me a plethora of invaluable hands-on experience integrating these components into a web application, as well as first-hand knowledge on how these components interact with each other in real-world systems. Most of this category's work went smoothly, but one area that posed some challenge was developing the user authentication and authentication system. Of all the components I planned to develop for this category, this was the one I had the least experience with, so I spent a considerable amount of time researching the best authentication methods to ensure my implementation was as effective and secure as possible, as well as testing both manually and through Postman to ensure the system worked as intended and couldn't be easily compromised. I believe all this work paid off, as the IP-based user-token system used in the final enhancement is both effective and secure, ensuring that only logged-in users can access the inventory table and its associated API routes.
+                Most of this category's work went smoothly, but one area that posed some challenge was developing the user authentication and authentication system. Of all the components I planned to develop for this category, this was the one I had the least experience with. I spent a considerable amount of time researching the best authentication methods to ensure my implementation was as effective and secure as possible, as well as testing both manually and through Postman to ensure the system worked as intended and couldn't be easily compromised. I believe all this work paid off, as the IP-based user-token system used in the final enhancement is both effective and secure, ensuring that only logged-in users can access the inventory table and its associated API routes. 
             </p>
 
             <hr>

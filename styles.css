@@ -110,6 +110,16 @@ p {
     max-width: 1200px;
 }
 
+#headshot {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 100%;
+
+    box-shadow: 0 0 20px 3px #D39959;
+    border-radius: 5px;
+}
+
 .video-container {
     width: 80%;
     padding-top: 45%; /* 16:9 aspect ratio*/
